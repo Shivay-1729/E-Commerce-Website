@@ -23,7 +23,7 @@ E-Commerce-Website/
 ## 🚀 Frontend: React + Vite
 
 ### 📁 Location
-- `frontend.zip` (unzip to get the full source)
+- `ecom-frontend-.zip` (unzip to get the full source)
 
 ### 📌 Features
 - Product listing and filtering
@@ -50,8 +50,6 @@ ecom-backend.zip (unzip to get the full source)
 
 📌 Features
 RESTful API for products, users, and orders
-
-JWT-based authentication (optional)
 
 H2 Database Integration
 
