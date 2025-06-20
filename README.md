@@ -12,10 +12,9 @@ This is a full-stack E-Commerce website project that includes:
 
 E-Commerce-Website/
 │
-├── ecom-frontend-.zip # React + Vite frontend source code
-├── ecom-backend.zip # Spring Boot backend source code
+├── frontend.zip # React + Vite frontend source code
+├── backend.zip # Spring Boot backend source code
 └── README.md # Project documentation
-
 
 
 ---
@@ -31,39 +30,41 @@ E-Commerce-Website/
 - React Router for navigation
 - Axios for API calls
 
-### 🛠 Setup Instructions
+---
 
-```bash
-# Unzip the frontend folder
-unzip ecom-frontend-.zip
-cd ecom-frontend-
+## ⚙️ Backend: Spring Boot
 
-# Install dependencies
-npm install
+### 📁 Location
+- `ecom-backend.zip` (unzip to get the full source)
 
-# Start the frontend server
-npm run dev
+### 📌 Features
+- RESTful API for products, users, and orders
+- H2 Database Integration
+- CORS support for frontend communication
 
-## Backend: Spring Boot
-📁 Location
-ecom-backend.zip (unzip to get the full source)
+---
 
-📌 Features
-RESTful API for products, users, and orders
+## 🔗 Frontend–Backend Integration
 
-H2 Database Integration
+Ensure the backend is running on `http://localhost:8080`, and update the API base URL in your frontend `.env` or Axios config.
 
-CORS support for frontend communication
+Example:
+```js
+// frontend/src/api/axiosConfig.js
+const API_BASE_URL = "http://localhost:8080/api";
+📷 Screenshots
+Coming soon — add some UI images here for better presentation
 
-🛠 Setup Instructions
-bash
-Copy
-Edit
-# Unzip the backend folder
-unzip backend.zip
-cd backend
+📚 Tech Stack
+Layer	Technology
+Frontend	React, Vite, Axios
+Backend	Spring Boot, Java
+Database	H2
+Build Tool	Maven
 
-# Run the application
-./mvnw spring-boot:run
+📄 License
+This project is licensed under the MIT License.
 
-
+📧 Contact
+Author: Saurabh Singh
+GitHub: Shivay-1729
